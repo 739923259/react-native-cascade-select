@@ -1,8 +1,8 @@
 ## 介绍
-使用react native scrollList封装，轮播图
+使用react native scrollView封装，在一组预设数据中进行选择，e.g. 省市区选择。
 ## 安装
 ```
-npm install react-native-carousel-slider
+npm install react-native-cascade-select
 ```
 ## API
 属性|说明|类型|默认值
@@ -19,7 +19,7 @@ onOk | 点击确认时执行的回调| (e, value): void|无
 onDismiss | 点击取消时执行的回调| (e): void|无
 title | 大标题| String|无
 ## 效果
-![image](http://note.youdao.com/yws/api/personal/file/WEBd626ffc915a73bf5b1fb5a3a95ffef8c?method=download&shareKey=d8c0447c13683703738090d7c228aae8)
+![image](http://27.155.122.191:8080/uploads/gif/20170914/1505386397982.gif)
 ## 用法
 ```
 import { AppRegistry, View, Button } from "react-native";
